@@ -1,0 +1,20 @@
+%%%-------------------------------------------------------------------
+%%% @author cujamin
+%%% @copyright (C) 2017, <COMPANY>
+%%% @doc
+%%%
+%%% @end
+%%% Created : 02. 六月 2017 上午11:36
+%%%-------------------------------------------------------------------
+
+{application, helloerlang, [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+    kernel,
+    stdlib
+  ]},
+  {mod, {helloerlang, []}},
+  {env, []}
+]}.
